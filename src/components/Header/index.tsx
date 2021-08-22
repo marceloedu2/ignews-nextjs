@@ -1,4 +1,4 @@
-import SignInButton from "./components/SignInButton";
+import SignInButton from "../SignInButton";
 import styles from "./styles.module.scss";
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
       <div className={styles.headerContent}>
         <img src="/images/logo.svg" alt="ig.news" />
         <nav>
-          <a className={styles.active} href="/home">
+          <a className={styles.active} href="/">
             Home
           </a>
           <a href="/posts">posts</a>
